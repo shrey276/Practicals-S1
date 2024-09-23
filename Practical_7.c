@@ -1,4 +1,4 @@
-/********** [To check whether the given number is prime or not.] **********/
+/********** ["To check whether the given number is prime or not"] **********/
 #include <stdio.h>
 int main()
 {
@@ -9,7 +9,8 @@ int main()
     for(i=2;n%i != 0;i++){
         
         printf("given number is prime");
-          
+         
+return 0;
     }
         
 }
