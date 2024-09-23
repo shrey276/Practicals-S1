@@ -1,4 +1,4 @@
-/********** [Program to convert time from given seconds to total hours, minutes and seconds] **********/
+/********** ["Program to convert time from given seconds to total hours, minutes and seconds"] **********/
 
 #include <stdio.h>
 int main(){
