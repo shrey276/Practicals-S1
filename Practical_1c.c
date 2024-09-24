@@ -1,4 +1,4 @@
-/********** [Find the factorial of the given number] **********/
+/********** ["Find the factorial of the given number"] **********/
 #include <stdio.h>
 int main()
 {

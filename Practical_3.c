@@ -1,4 +1,4 @@
-/********** [Program to calculate Addition, Subtraction, Multiplication and Division of given two numbers using arithmetic operator] **********/
+/********** ["Program to calculate Addition, Subtraction, Multiplication and Division of given two numbers using arithmetic operator"] **********/
 
 #include <stdio.h>
 int main()

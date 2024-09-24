@@ -1,4 +1,4 @@
-/********** [Find the maximum number out of three] **********/
+/********** ["Find the maximum number out of three"] **********/
 
 #include <stdio.h>
 int main()
