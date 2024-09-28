@@ -59,19 +59,19 @@ int main(){
         for(j = 0; j <= 3; j++)
         {
             subm[j][i] = (sub[j][i] * 100)/30;
-            sm[i] =  (LDPm[i] + PEPm[i] + AEMm[i] + CEPm[i]) / 4 ;
-        } 
+        }
+        sm[i] =  (LDPm[i] + PEPm[i] + AEMm[i] + CEPm[i]) / 4 ; 
     }
 
 // PRINT RESULT
 
     printf ("|------------------------------------------------------------------------|\n");
-    printf ("|| Roll no. |      Name:      |  LDP  |  PEP  |  AEM  |  CEP  |  FINAL  ||\n");
+    printf ("|| Roll no. |      Name:      |  LDP%% |  PEP%% |  AEM%% |  CEP%% |  FINAL%% ||\n");
     printf ("||----------|-----------------|-------|-------|-------|-------|---------||\n");
 
     for(i = 0; i <= 2; i++)
     { 
-        printf ("|| %-7d. | %-15s | %-5d | %-5d | %-5d | %-5d | %-7d ||\n",&r[i],s[i],LDPm[i],PEPm[i],AEMm[i],CEPm[i],sm[i]);   
+        printf ("|| %-7d. | %-15s | %-5d | %-5d | %-5d | %-5d | %-7d ||\n",&r[i],s[i],LDPm[i],PEPm[i],AEMm[i],CEPm[i],sm[i]);  
     }
 
     printf ("|------------------------------------------------------------------------|\n");
