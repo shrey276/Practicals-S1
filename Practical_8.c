@@ -26,7 +26,7 @@ int main()
     for (i = 0; i < n; i++)
     {
         printf("%d",f[i]);
-        if(i<n-1){         
+        if(i < n - 1){         
             printf(",");
         }    
     }
