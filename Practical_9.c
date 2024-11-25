@@ -4,7 +4,9 @@
 
 int main()
 {   
-    int i,j, n = 5;
+    int i,j,n;
+    printf("enter a number of colms : ");
+    scanf("%d",&n);
 
 
     for (i = 1; i <= n; i++)             // pattern (a) 
@@ -29,9 +31,9 @@ int main()
 
 
     printf("\n===================================\n\n");
-     for (i = 1; i <= n; i++)             // pattern (c) 
+     for (i = n; i >= 1; i--)             // pattern (c) 
     {
-        for (j = 5; j >= i; j--)
+        for (j = 1; j <= i; j++)
         {
             printf("%d",j);
         }
@@ -40,11 +42,11 @@ int main()
 
 
     printf("\n===================================\n\n");
-     for (i = 1; i <= n; i++)             // pattern (d) 
+     for (i = n; i >= 1; i--)             // pattern (d) 
     {
-        for (j = 5; j >= i; j--)
+        for (j = 1;j <= i ;j++)
         {
-            printf("%d",(n+1)-i);
+            printf("%d",i);
         }
         printf("\n");
     }

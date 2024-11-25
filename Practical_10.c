@@ -4,11 +4,12 @@
 int main()
 {
     int i,r[5];
-
-    for(i = 1; i <= 5; i++)
+    char s1[9]="Om",s2[9]="Jay",s3[9]="Ram",s4[9]="jass",s5[9]="zeel";
+    char *s[] = {s1,s2,s3,s4,s5};
+    for(i = 0; i < 5; i++)
     {
-        printf("Enter the roll no of student%d : ",i);
-        scanf("%d",&r[i-1]);
+        printf("Enter the %s's roll no: ",s[i]);
+        scanf("%d",&r[i]);
     }
     
 return 0;
