@@ -1,4 +1,4 @@
-//program that defines a function to add first n numbers
+/********** "program that defines a function to add first n numbers" **********/
 #include <stdio.h>
 
 int addn(int n);

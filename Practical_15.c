@@ -1,4 +1,4 @@
-//program to find the factorial of a number using recursion.
+/********** "program to find the factorial of a number using recursion." ***********/
 #include <stdio.h>
 
 int fact(int n) {

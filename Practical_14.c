@@ -1,4 +1,4 @@
-//function in the program to return 1 if number is prime otherwise return 0
+/********** "function in the program to return 1 if number is prime otherwise return 0" **********/
 #include <stdio.h>
 
 int prime(int n);

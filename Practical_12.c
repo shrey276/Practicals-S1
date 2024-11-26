@@ -1,4 +1,4 @@
-//program to demonstrate different string functions
+/********** "program to demonstrate different string functions" **********/
 
 # include <stdio.h>
 # include <string.h>
