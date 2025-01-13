@@ -11,7 +11,7 @@
 {{*** Last run (Exercises_Last) ***}}  //fun*
 
 
-***[""  ALL PROGRAMS IN C  ""]   (" CE First Year ")   <=(^_^)***
+***[""  ALL PROGRAMS IN C  ""]   (" CE First Sem ")   <=(^_^)***
 
 
 ***  {*^_^*}    T H A N K S !!    {*^_^*}  ***
